@@ -1,0 +1,10 @@
+name: Prova workflow
+
+on: [push]
+
+jobs:
+  saluda:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Missatge
+        run: echo "El workflow de Natalia funciona correctament"
